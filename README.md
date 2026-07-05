@@ -49,7 +49,7 @@ A aplicação do CRISP-DM neste projeto seguirá as seguintes fases:
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/7c6b0c8a-875e-47ab-bce1-00ba26b4f109"
-" width="600" alt="image">
+" width="500" alt="image">
 </p>
 
 #### Etapa 1 - Entendimento de Negócio
@@ -60,7 +60,38 @@ Foi identificado que o crescimento da inadimplência está impactando diretament
 
 O objetivo de negócio definido foi reduzir a inadimplência por meio da identificação de variáveis de risco e da construção de estratégias preventivas de concessão de crédito.
 
+Antes de iniciar a análise, podemos organizar o problema de inadimplência em uma árvore de decisão. A ideia é separar os fatores que mais estão associados a inadimplência  em grandes hipóteses e, depois, quebrar cada hipótese em causas mais específicas para a análise estatística.
+
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0c84443d-0605-4ed4-b96c-afca45833d02"
+" width="700" alt="image">
+</p>
+
 Premissa:
+
+- Outliers com idades extremas seram excluídas da base;
+- Clientes com salário anual acima de 1.000.000,00 não seram considerados na análise, pois a amostragem é mínima.
+
+Critérios de Sucesso:
+
+- 1° Tabelar as variáveis com maior fator de risco com relação a inadimplência;  
+- 2° Plano de ação para diminuir a taxa de inadimplência somente das variáveis de maior impacto.
+
+
+
+#### Etapa 2 - Entendimento dos Dados
+Descrição dos Dados e Coleta:
+
+- Metadados do Projeto
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7ef413ce-51bb-4f90-955f-95dfcab52ae8"
+" width="800" alt="image">
+</p>
+
+Análise Exploratória e Sanity Check:
+
 
 
 
