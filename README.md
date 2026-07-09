@@ -138,7 +138,123 @@ Para cálcular o Infomation Value necessitamos da Odds (chance) que é a divisã
 
 Encontra-se o LN da Odds, para enfim encontrar o valor do Information Value da categoria da variável: percentual da inadimplência menos o percentual de adimplentes multiplicados pelo LN, para fnalizar o IV Total será o somário de todos os IV das categorias da variável selecionada para verificar o poder de separação.
 
+#### Analisando a variável Idade:
 <img width="1748" height="307" alt="image" src="https://github.com/user-attachments/assets/e1db5c6f-d601-4bb9-b437-a55d3038f360" />
+
+- A taxa de inadimplência dos clientes desta base não demonstra concentração relevante de inadimplência entre as faixas de idade, os percentuais da taxa de inadimplência ficaram muito próximos a taxa média.
+- A chance que é a divisão percentual de clientes que não pagaram o empréstimo pelos clientes que pagaram, obteve-se valores próximos a um. Por tanto, a chance do cliente pagar ou não o empréstimo é igual.
+- Conclui-se que não há evidências de que a taxa de inadimplência esteja mais associada a uma faixa etária específica.
+- O IV Total corresponde a 0,00 com poder de separação classificado como Muito Fraco.
+
+#### Analisando a variável Salário Anual:
+<img width="1751" height="396" alt="image" src="https://github.com/user-attachments/assets/544d47e1-61b3-4dd6-960e-ae21c46e8549" />
+
+- A taxa média de inadimplência dos clientes apresentou concentração relevante com relação a faixa salarial entre 4000-53999.
+- Clientes na faixa salarial de 4.000,00 a 53.999,00 apresentam probabilidade de inadimplência de 30,78% (9 pp acima da média).
+- O IV Total corresponde a 0,28 com poder de separação classificado como Médio.
+
+#### Analisando a variável Tipo de Moradia:
+<img width="1747" height="282" alt="image" src="https://github.com/user-attachments/assets/9714e567-b9b4-42ce-a081-10040f1f7c1a" />
+
+- A taxa média de inadimplência dos clientes apresentou concentração relevante com relação a dois tipos de moradia: Rent e Other.
+- Clientes com tipo de moradia de Aluguel apresenta probabilidade de inadimplência de 31,58% (10 pp acima da média).
+- O cenário se mantém semelhante para o tipo Outros onde a probabilidade de inadimplência atinge 30,84%, o que representa 9 pontos percentuais (pp) acima da média geral do portfólio.
+- O IV Total corresponde 0,38 com poder de separação classificado como Forte.
+
+#### Analisando a variável Tempo de Emprego:
+<img width="1748" height="348" alt="image" src="https://github.com/user-attachments/assets/37858302-bea5-4711-9105-547f0e6f4e8e" />
+
+- A taxa de inadimplência dos clientes desta base não demonstra concentração relevante de inadimplência com as faixas de tempo de emprego.
+- A chance que é a divisão percentual de clientes que não pagaram o empréstimo pelos clientes que pagaram, obteve-se resultados próximos de um. Por tanto, a chance do cliente pagar ou não o empréstimo é igual.
+- Conclui-se que não há evidências de a taxa de inadimplência esteja mais associada a uma faixa de tempo de emprego específica.
+- O IV Total corresponde a 0,05 com poder de separação classificado como Fraco.
+
+#### Analisando a variável Objetivo:
+<img width="1746" height="322" alt="image" src="https://github.com/user-attachments/assets/dfe0b68e-d167-4665-b40f-3691ae08aa7a" />
+
+- A taxa de inadimplência dos clientes desta base não demonstra concentração relevante de inadimplência por objetivo do empréstimo, os percentuais da taxa de inadimplência ficaram próximas a taxa média.
+- A chance que é a divisão percentual de clientes que não pagaram pelos clientes que pagaram, obteve-se valores muito próximos, ou seja, o resultado fica próximo de 1. Logo, a chance do cliente pagar ou não é igual.
+- Conclui-se que não há evidências que a taxa de inadimplência esteja mais associada a um objetivo específico.
+- O IV Total corresponde a 0,10 com poder de separação classificado como Fraco.
+
+#### Analisando a variável Categoria:
+<img width="1745" height="348" alt="image" src="https://github.com/user-attachments/assets/8f5fecd6-8ddd-4bb3-b33e-d663c1c6ccef" />
+
+- A taxa de inadimplência dos clientes apresentou concentração relevante nas categorias D, E, F e G progressivamente.
+- Clientes na categoria D apresentam uma inadimplência de 59,05% (37 pp acima da média).
+- Clientes na categoria E apresentam uma inadimplência de 64,42% (43 pp acima da média).
+- Clientes na categoria F apresentam uma inadimplência de 70,54% (49 pp acima da média).
+- O cenário é ainda mais severo na categoria G, onde a probabilidade de inadimplência atinge 98,44%, representando 77 pp acima da média geral da base. No entanto, é uma amostra muito pequena frente as demais.
+- O IV Total corresponde a 0,88 com poder de separação classificado como Muito Bom.
+
+#### Analisando a variável Valor do Empréstimo:
+<img width="1750" height="393" alt="image" src="https://github.com/user-attachments/assets/726fe246-8b8c-490e-b9eb-12eb64951193" />
+
+- A taxa de inadimplência dos clientes desta base não demonstra concentração relevante de inadimplência entre as faixas do valor do empréstimo.
+- Conclui-se que não há evidências que a taxa de inadimplência esteja mais associada a uma faixa de valor do empréstimo específica.
+- O IV Total corresponde a 0,08 com poder de separação classificado como Fraco.
+
+#### Analisando a variável Taxa de Juros:
+<img width="1747" height="373" alt="image" src="https://github.com/user-attachments/assets/79259374-5149-49ec-be09-fa810bbcfd2b" />
+
+- A taxa de inadimplência dos clientes apresenta uma tendência de alta clara conforme a taxa de juros aumenta, tornando-se crítica a partir de 14% ao ano.
+- Clientes na faixa de 14% a 16% de juros apresentam uma inadimplência de 47,05% (25 pp acima da média).
+- O cenário é ainda mais severo na faixa superior a 16%, onde a probabilidade de inadimplência atinge 62,85%, o que representa 41 pontos percentuais (pp) acima da média geral do portfólio.
+- O IV Total corresponde a 0,67 com poder de separação classificado como Muito Bom.
+
+#### Analisando a variável Percentual de Comprometimento da Renda:
+<img width="1747" height="326" alt="image" src="https://github.com/user-attachments/assets/690d687d-72d5-4f89-b8d3-df49c5c9e9e3" />
+
+- A taxa de inadimplência dos clientes apresenta uma tendência de alta clara conforme o percentual de comprometimento da renda aumenta, tornando-se cítica a partir de 30%.
+- Clientes na faixa de 30% a 40% de comprometimento da renda apresenta uma inadimplência de 61,76% (40 pp acima da média).
+- Clientes na faixa de 40% a 50% de comprometimento da renda aprensenta uma inadimplência de 72,49% (50 pp acima da média).
+- O cenário é ainda mais severo na faixa superior a 50%, onde a probabilidade de inadimplência atinge 78,63%, que representa 57 pontos percentuais (pp) acima da média geral do portfólio.
+- O IV Total corresponde a 0,86 com poder de separação classificado como Muito Bom.
+
+#### Analisando a variável Histórico de Inadimplência:
+<img width="1745" height="241" alt="image" src="https://github.com/user-attachments/assets/23246bdc-822d-43fe-9834-f998241268c8" />
+
+- A taxa de inadimplência dos clientes apresentou concentração com relação ao histórico de inadimplência.
+- Clientes com histórico positivo tem probabilidade de inadimplência de 37,81% (16 pp acima da média).
+- O IV Total corresponde a 0,16 com poder de separação classificado como Médio.
+
+#### Analisando a variável Tempo de Crédito:
+<img width="1747" height="328" alt="image" src="https://github.com/user-attachments/assets/1bddc5bd-6083-4f02-b2aa-541ddc104c2d" />
+
+- A taxa de inadimplência dos clientes desta base não demonstra concentração relevante de inadimplência por tempo de crédito, os percentuais da taxa de inadimplência ficaram próximos a taxa média.
+- A chance que é a divisão percentual de clientes que não pagaram pelos clientes que pagaram, obteve-se resultados muito próximos de um.  Logo, a chance do cliente pagar ou não é igual.
+- Conclui-se que não há evidências que a taxa de inadimplência esteja mais associada a uma faixa de tempo de histórico de crédito específica.
+- O IV Total corresponde a 0,00 com poder de separação classificado como Muito Fraco.
+
+
+#### Etapa 5 - Validação do Trabalho
+Verificação do Critério de Sucesso:
+
+1° Tabelar as variáveis com maior fator de risco com relação a inadimplência;
+
+Critério adotado com sucesso, a tabela apresenta as variáveis com o valor do Information Value em ordem decrescente do grau de separação. As variáveis com maior poder de influência sobre a inadimplência são: Categoria, Percentual de comprometimendo da renda, Taxa de juros e Tipo de moradia.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3539654d-7d1d-4ad0-b68e-5ab88680f9a0"
+" width="800" alt="image">
+</p>
+
+2° Plano de ação para diminuir a taxa de inadimplência somente das variáveis de maior impacto.
+
+Adotaremos o plano de ação 2 com o estabelecimento um teto máximo de comprometimento de renda em 30%, pois a inadimplência salta de 21% para 61,76%, na próxima etapa será mensurado o impacto financeiro desse plano.
+
+<img width="1467" height="529" alt="image" src="https://github.com/user-attachments/assets/685ac081-6258-431f-8140-060220c1acba" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
