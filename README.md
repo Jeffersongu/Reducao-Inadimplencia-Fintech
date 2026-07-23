@@ -1,7 +1,7 @@
 # Reducao-Inadimplencia-Fintech
-
 ---
-Imagem Fintech
+
+<img width="1200" height="500" alt="image" src="https://github.com/user-attachments/assets/292ab99c-b1e7-4d58-8089-e7718993af5f" />
 
 ---
 ## 📊 Contexto do Projeto
@@ -90,8 +90,38 @@ Descrição dos Dados e Coleta:
 " width="800" alt="image">
 </p>
 
-### Análise Exploratória e Sanity Check:
+Análise Exploratória e Sanity Check:
 
+Antes de avançar, validamos a consistência da base:
+
+O Sanity Check foi executado para verificação da qualidade dos dados, validando volumetria, tipos e consistência antes de seguir para a preparação da base.
+- Total de empréstimos na base original: 32.581 (32.567 após tratamento).
+- 22% de inadimplência é muito alto para uma fintech — o benchmark de mercado gira em torno de 2 a 5%.
+
+Variável Idade:
+- Concentração de 95% da base entre 20 e 39 anos (30.816 clientes).
+- Faixa 20-29 (Geração Z) é a maior, com 72% da base.
+- 50% dos clientes têm até 26 anos.
+- Boxplot revelou outliers extremos (idades entre 41 e 144 anos) — recomenda-se excluir apenas os valores mais extremos (94, 123, 144), por indício de erro de digitação, mantendo os demais por não comprometerem a análise.
+
+Variável Renda Anual
+- 88% da base concentra-se entre R$ 4.000 e R$ 103.999 (28.626 clientes).
+- Sem dados faltantes ou erros de digitação.
+- Recomendação exclusão dos 8 clientes com renda acima de R$ 1.000.000 por amostragem insignificante para o método estatístico aplicado.
+
+Variável Tempo de Emprego
+- 89% da base concentra-se nas duas primeiras faixas (28.947 clientes).
+- Dois outliers extremos (123 anos de tempo de emprego) substituídos pela mediana.
+- Grande volume de dados nulos, reocmendação substituir por zero e enquadrar na faixa 0-4 para preservar a análise de concentração.
+
+Variável Valor do Empréstimo
+- 75% dos empréstimos concentram-se em três faixas de valor (24.528 clientes).
+- Outliers não apresentam comportamento extremo fora do normal — mantidos sem alteração.
+- Sem dados faltantes ou erros de inserção.
+
+Variável Taxa de Juros
+- 80% dos empréstimos concentram-se nas faixas centrais de 6% a 16% (26.233 clientes).
+- 10% dos dados estavam faltantes: reocmendação substituir por zero e agrupa-los na faixa 0-2% para demarcar a frequência sem descartar os registros.
 
 #### Etapa 3 - Preparação dos Dados
 Limpeza e Formatação dos Dados:
