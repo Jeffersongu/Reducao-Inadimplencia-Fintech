@@ -241,25 +241,30 @@ Critério adotado com sucesso, a tabela apresenta as variáveis com o valor do I
 
 2° Plano de ação para diminuir a taxa de inadimplência somente das variáveis de maior impacto.
 
-Adotaremos o plano de ação 2 com o estabelecimento um teto máximo de comprometimento de renda em 30%, pois a inadimplência salta de 21% para 61,76%, na próxima etapa será mensurado o impacto financeiro desse plano.
-
 <img width="1467" height="529" alt="image" src="https://github.com/user-attachments/assets/685ac081-6258-431f-8140-060220c1acba" />
 
+#### Etapa 6 - Deploy - Implantação
+Plano de implantação e Monitoramento do Estudo ou Modelo:
 
-
-
-
-
-
-
-
-
-
-
-
+Adotaremos o plano de ação 2 com o estabelecimento um teto máximo de comprometimento de renda em 30%, pois a inadimplência salta de 21% para 61,76%, na próxima etapa será mensurado o impacto financeiro desse plano.
 
 ---
-## ✅ Resultados
+## 💲 Valor
+Mensurando o impacto financeiro do plano de ação 2, o cálculo será desenvolvido em três operações:
+- Operação de Crédito antes da Análise de Dados
+  
+  O total do empréstimo corresponde a soma dos clientes adimplentes e inadimplentes da base, a Receita Esperada é formada por 40% de juros em média dessa operação do total do empréstimo concedido a base de clientes, a perda esperada é dada pelos clientes inadimplentes. O ROE é obtido pela receita esperada menos a perda dada pela inadimplência dividido pelo total do empréstimo com um resultado de 15%, o lucro dessa operação resultou em R$ 47.795.275,00.
+
+- Operação de Crédito depois da Análise de Dados (Plano de Ação 2)
+
+  Com a implementação do plano de ação 2, houve uma redução no total do empréstimo, pois aplicamos um limite sobre o percentual de comprometimento da renda em até 30% com isso a uma redução no número de empréstimos, a receita esperada também reduziu, porém a perda esperada reduziu e o ROE aumentou para 26%, com um aumento na lucratividade em R$ 62.730.705,00.
+  
+- Efeito da Melhoria
+
+  A inadimplência antes de 21,83% caiu para 15,21% somente com a aplicação de um único plano de ação, em contrapartida a receita reduziu em R$ 26.674.920,00, já perda esperada pela inadimplência reduziu em R$ 41.610.350,00. O ROE teve um aumento de 10 pontos pencetuais e aumento no lucro de R$ 14.935.430,00.
+
+<img width="2165" height="709" alt="image" src="https://github.com/user-attachments/assets/bcf7c951-d6b5-419a-90e0-56f0d5997b9c" />
+
 
 ---
 ## 🚀 Próximos Passos
