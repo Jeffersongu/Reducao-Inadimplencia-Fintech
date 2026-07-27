@@ -23,20 +23,22 @@ O principal objetivo deste projeto é identificar quais variáveis possuem maior
 
 ---
 ## 🛠️ Tecnologias Utilizadas
-- Power Query - Transformação dos dados;
-- Github - Documentação do projeto.
+- Análise - Tabela Dinâmica;
+- GitHub - Documentação do projeto.
 
 ---
-## 🧱 Modelagem de Dados
-
----
-## 🔄 Pipeline de Dados (ELT)
+## 🔄 Pipeline de Dados (ETL)
 O pipeline do projeto segue as seguintes etapas:
 - Extração: Coleta de dados estruturados a partir de arquivos csv (credito);
-- Transformação: Tratamento, limpeza dos dados brutos utilizando o Power Query;
-- Visualização: Modelagem e consolidação das informações no Power BI para geração de dashboard e análise de indicadores.
+- Transformação: Tratamento, limpeza dos dados brutos na própria base;
+- Visualização: Consolidação das informações através da Análise do Information Value com o recurso da tabela dinâmica.
 
-Imagem Arquitetura
+</br>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3c5edba9-47a2-4e8d-bc0a-44eaa434c5fd"
+" width="600" alt="image">
+</p>
+
 ---
 ## 🧭 Estratégia da Solução
 Para garantir uma abordagem estruturada, orientada ao negócio e com foco em geração de valor, a estratégia deste projeto será conduzida com base no framework CRISP-DM (Cross Industry Standard Process for Data Mining), amplamente utilizado em projetos de Ciência de Dados, Analytics e Crédito.
