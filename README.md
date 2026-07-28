@@ -300,3 +300,5 @@ Mensurando o impacto financeiro do plano de ação 2, o cálculo será desenvolv
 
 ---
 ## 🚀 Próximos Passos
+- Criação de um dashboard de acompanhamento da inadimplência com os grupos controle e teste para cada plano de ação implementado;
+- Realizar a limpeza dos dados com auxílio do Power Query ou outra ferramenta de tratamento para garantir automação.
