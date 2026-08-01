@@ -62,13 +62,20 @@ Foi identificado que o crescimento da inadimplência está impactando diretament
 
 O objetivo de negócio definido foi reduzir a inadimplência por meio da identificação de variáveis de risco e da construção de estratégias preventivas de concessão de crédito.
 
-Antes de iniciar a análise, podemos organizar o problema de inadimplência em uma árvore de decisão. A ideia é separar os fatores que mais estão associados a inadimplência  em grandes hipóteses e, depois, quebrar cada hipótese em causas mais específicas para a análise estatística.
+Antes de iniciar a análise, podemos estruturar o problema de inadimplência em uma árvore de decisão. A ideia é separar os fatores que mais estão associados a inadimplência  em grandes hipóteses e, depois, quebrar cada hipótese em causas mais específicas para a análise estatística.
 
+O problema será separado em três grandes frentes:
+  1. Incapacidade Financeira: queda de renda, desemprego, redução salarial, endividamento externo, eventos imprevistos, saúde ou acidentes.
+  2. Desorganização: falta de planejamento, esquece datas ou prioriza lazer.
+  3. Fraude: fraude documental ou roubo de identidade.
+
+Como o dataset disponível traz informações do perfil do clientes, dados do empréstimo e histórico de inadimplência, o foco da análise será a frente de incapacidade financeira e desorganização. A fraude pode ser uma hipótese relevante, mas não temos dados diretos para analisar.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0c84443d-0605-4ed4-b96c-afca45833d02"
-" width="700" alt="image">
+<img src="https://github.com/user-attachments/assets/8e2d02c5-1711-4c47-8bb3-c659a3fb9333"
+" width="600" alt="image">
 </p>
+
 
 Premissa:
 
