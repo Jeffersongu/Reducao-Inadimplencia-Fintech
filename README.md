@@ -65,14 +65,14 @@ O objetivo de negócio definido foi reduzir a inadimplência por meio da identif
 Antes de iniciar a análise, podemos estruturar o problema de inadimplência em uma árvore de decisão. A ideia é separar os fatores que mais estão associados a inadimplência  em grandes hipóteses e, depois, quebrar cada hipótese em causas mais específicas para a análise estatística.
 
 O problema será separado em três grandes frentes:
-  1. Incapacidade Financeira: queda de renda, desemprego, redução salarial, endividamento externo, eventos imprevistos, saúde ou acidentes.
-  2. Desorganização: falta de planejamento, esquece datas ou prioriza lazer.
+  1. Perfil do Cliente: renda informada, tipo de moradia, renda salarial, tempo no trabalho, histórico de inadimplência e tempo de crédito com a instituição.
+  2. Empréstimo: objetivo do empréstimo, tipo de empréstimo solicitado, valor pedido, a taxa de juros disponibilizada, situação da inadimplência e comprometimento da renda.
   3. Fraude: fraude documental ou roubo de identidade.
 
-Como o dataset disponível traz informações do perfil do clientes, dados do empréstimo e histórico de inadimplência, o foco da análise será a frente de incapacidade financeira e desorganização. A fraude pode ser uma hipótese relevante, mas não temos dados diretos para analisar.
+O foco da análise será perfil e empréstimo adquirido pelo cliente, pois o dataset traz informações sobre o cliente, dados do empréstimo e histórico de inadimplência. A hipótese de fraude não será analisada por falta de dados.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/8e2d02c5-1711-4c47-8bb3-c659a3fb9333"
+<img src="https://github.com/user-attachments/assets/fd895bae-19bf-4f5f-9641-d3639a2d19a9"
 " width="600" alt="image">
 </p>
 
