@@ -64,17 +64,18 @@ O objetivo de negócio definido foi reduzir a inadimplência por meio da identif
 
 Antes de iniciar a análise, podemos estruturar o problema de inadimplência em uma árvore de decisão. A ideia é separar os fatores que mais estão associados a inadimplência  em grandes hipóteses e, depois, quebrar cada hipótese em causas mais específicas para a análise estatística.
 
-O problema será separado em três grandes frentes:
+O problema será separado em três raízes:
   1. Perfil do Cliente: renda informada, tipo de moradia, renda salarial, tempo no trabalho, histórico de inadimplência e tempo de crédito com a instituição.
-  2. Empréstimo: objetivo do empréstimo, tipo de empréstimo solicitado, valor pedido, a taxa de juros disponibilizada, situação da inadimplência e comprometimento da renda.
-  3. Fraude: fraude documental ou roubo de identidade.
+  2. Interno: objetivo do empréstimo, tipo de empréstimo solicitado, valor pedido, a taxa de juros disponibilizada, situação da inadimplência e comprometimento da renda.
+  3. Externo: condições econômicas, fatores macroeconômicos e fraudes.
 
-O foco da análise será perfil e empréstimo adquirido pelo cliente, pois o dataset traz informações sobre o cliente, dados do empréstimo e histórico de inadimplência. A hipótese de fraude não será analisada por falta de dados.
+Foco da análise será direcionado para o perfil do cliente e fator Interno da fintech, devido à disponibilidade de dados sobre características dos clientes e condições dos empréstimos. Fatores Externos serão desconsiderados pela ausência de variáveis que permitam sua análise.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/fd895bae-19bf-4f5f-9641-d3639a2d19a9"
+<img src="https://github.com/user-attachments/assets/00106a0b-f01b-4772-8510-2c0a05bfd4fe"
 " width="600" alt="image">
 </p>
+
 
 
 Premissa:
@@ -268,6 +269,15 @@ Encontra-se o LN da Odds, para enfim encontrar o valor do Information Value da c
 
 #### Etapa 5 - Validação do Trabalho
 Verificação do Critério de Sucesso:
+
+A análise identificou que o principal problema estava no fator interno mais precisamente sobre o perfil de empréstimo concedido, com três variáveis com alto grau de separação. Outra variável que apresentou alto grau de separação foi encontrada no perfil de cliente.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/1d76a305-1a11-4f2c-8b8f-c91e72564ba2"
+" width="600" alt="image">
+</p>
+
+
 
 1° Tabelar as variáveis com maior fator de risco com relação a inadimplência;
 
