@@ -270,12 +270,14 @@ Encontra-se o LN da Odds, para enfim encontrar o valor do Information Value da c
 #### Etapa 5 - Validação do Trabalho
 Verificação do Critério de Sucesso:
 
-A análise identificou que o principal problema estava no fator interno mais precisamente sobre o perfil de empréstimo concedido, com três variáveis com alto grau de separação. Outra variável que apresentou alto grau de separação foi encontrada no perfil de cliente.
+A análise estruturada identificou que os fatores com maior poder de separação em relação à inadimplência estão concentrados principalmente em variáveis internas relacionadas às condições do empréstimo concedido pela fintech. Foram identificadas três variáveis com alto poder de separação, classificadas como muito fortes. No que se refere ao perfil do cliente, apenas a variável Moradia apresentou poder de separação considerado forte. As demais variáveis analisadas apresentaram baixa evidência de associação com a inadimplência. 
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1d76a305-1a11-4f2c-8b8f-c91e72564ba2"
 " width="600" alt="image">
 </p>
+
+Com base nesses resultados, a estratégia de redução da inadimplência deve priorizar os fatores internos de concessão e configuração do crédito que apresentaram maior poder de discriminação, direcionando as políticas de análise, aprovação e monitoramento de crédito para os segmentos que apresentam maior exposição ao risco. A solução e recomendação estão presentes logo abaixo: 
 
 
 
